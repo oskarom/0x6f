@@ -1,6 +1,8 @@
 {
 	"require": {
-		"laravel/framework": "4.0.*"
+		"laravel/framework": "4.0.*",
+		"mathiasverraes/money": "dev-zero-equality",
+		"pink-tie/money-bundle": "dev-zero-equality"
 	},
 	"autoload": {
 		"classmap": [
