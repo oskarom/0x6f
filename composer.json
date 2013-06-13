@@ -1,8 +1,6 @@
 {
 	"require": {
 		"laravel/framework": "4.0.*",
-		"mathiasverraes/money": "dev-zero-equality",
-		"pink-tie/money-bundle": "dev-zero-equality"
 	},
 	"autoload": {
 		"classmap": [
@@ -19,10 +17,10 @@
 			"php artisan clear-compiled"
 		],
 		"post-install-cmd": [
-			"php artisan optimize"
+			//"php artisan optimize"
 		],
 		"post-update-cmd": [
-			"php artisan optimize"
+			//"php artisan optimize"
 		]
 	},
 	"config": {

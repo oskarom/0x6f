@@ -43,10 +43,6 @@
 						<h4 class="media-heading">{{ $forsaleitem->title }}</h4>
 						<p>{{ $forsaleitem->description }}</p>
 						<p>{{ $forsaleitem->price }}</p>
-						<?php
-							$fiver = NumberFormatter::format(500);
-							echo $fiver;
-						?>
 					</div>
 				</div>
 				<hr>			
