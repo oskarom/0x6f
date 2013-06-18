@@ -51,22 +51,5 @@
 
 	</div>
 </div>
-<!--
-	<table>
-		<tbody>	
-			@foreach($forsaleitems as $forsaleitem)			
-				<tr>
-					<td><div class="forSaleItemforSaleItemImageContainer"><img class="forSaleItemImage" src={{ $forsaleitem->img }}></div></td>
-					<td>
-						<ul>
-							<li><h2>{{ $forsaleitem->title }}</h2></li>
-							<li><p>{{ $forsaleitem->description }}</p></li>
-							<li><p>{{ $forsaleitem->price }}</p></li>
-						</ul>
-					</td>
-				</tr>						 	
-			@endforeach
-		</tbody>
-	</table>	
--->
+
 @stop
