@@ -14,7 +14,3 @@
 Route::get('/', 'HomeController@index');
 
 Route::get('/forsale', 'ForSaleController@index');
-
-Route::get('/test', function(){
-	return 'test';
-});

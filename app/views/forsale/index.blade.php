@@ -41,8 +41,8 @@
 					</div>
 					<div class="forSaleItemDetails media-body">					
 						<h4 class="media-heading">{{ $forsaleitem->title }}</h4>
-						<p>{{ $forsaleitem->description }}</p>
-						<p>{{ $forsaleitem->price }}</p>
+						<p>{{ $forsaleitem->description }}</p>						
+						<p><?php echo (number_format($forsaleitem->price, 0, ',', '.') . ' kr'); ?>
 					</div>
 				</div>
 				<hr>			
