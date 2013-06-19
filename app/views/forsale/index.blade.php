@@ -2,24 +2,6 @@
 
 @section('content')
 
-	<style type="text/css">
-		.forSaleItemforSaleItemImageContainer {
-			position:relative;
-			height:150px;
-			width:150px;
-		}
-		.forSaleItemImage {
-			position:absolute;
-			top:0;
-			bottom:0;
-			left:0;
-			right:0;
-			margin:auto;
-			max-height:150px;
-			max-width:150px;
-		}
-	</style>
-
 <div class="container">
 
 	<div class="row-fluid">
